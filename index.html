@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Sketchy Duck Market</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Sketchy Duck Marketplace</h1>
+        <form id="form1">
+          <h4>Name:</h4>
+          <div class="form-group">
+            <input id="name" class="form-control" type="text" placeholder="Enter Your Name">
+          </div>
+            <h4>Billing adress:</h4>
+            <div class="form-group">
+              <input id="address" class="form-control" type="text" placeholder="Enter Your Address (Street, City, Zip)">
+          </div>
+          <h4>Number of ducks desired:</h4>
+          <div class="form-group">
+            <input id="ducks" class="form-control" type="text" placeholder="Please buy a lot of ducks!">
+          </div>
+          <button type="submit" class="btn-success">Make your purchase</button>
+        </form>
+      </div>
+    <div class="output">
+      <h3>Thank you for your order!</h3>
+      <p>
+        Thank you for your order <span class="name"></span>! Your billing address is <span class="address"></span>. If this is wrong, your <span class="ducks"></span> ducks will die in a box in the back of a ups warehouse.
+      </p>
+    </div>
+    <div class="row bottom">
+      <div class="col-md-12 well">
+        <img src="imgs/ducks.jpg" alt="">
+      </div>
+    </div>
+    <div id="output">
+    </div>
+  </div>
+  </body>
+</html>

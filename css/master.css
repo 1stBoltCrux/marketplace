@@ -1,0 +1,15 @@
+.jumbotron {
+  margin-bottom: 20px;
+
+}
+.jumbotron h1 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+
+}
+
+.output {
+  display:none;
+}
